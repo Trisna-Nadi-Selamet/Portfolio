@@ -245,8 +245,8 @@ img {
 }
 .rounded-image{
      border-radius: 100%;
-     height: 300px;
-     width: 295px;
+     height: 350px;
+     width: 350px;
      display: block;
 }
 .about__img img{
@@ -449,7 +449,7 @@ img {
     .work__container{
         justify-items: center;
     } 
-
+  
 }
 @media screen and (min-width: 1024px){
     .bd-grid{
@@ -464,16 +464,16 @@ img {
 .rounded-image {
     position: relative;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
   }
   
   @keyframes example {
-    5%   { left:0px; top:0px;}
-    20%  { left:200px; top:0px;}
-    30%  { left:200px; top:200px;}
-    40%   {left:0px; top:200px;}
-    60%  {left:0px; top:0px;}
+    0%   { left:0px; top:0px;}
+    40%  { left:50px; top:0px;}
+    60%  { left:50px; top:50px;}
+    80%   {left:0px; top:50px;}
+    100%  {left:0px; top:0px;}
   }
 
   .img__view{
@@ -496,7 +496,7 @@ img {
     position:relative;
     padding:0;
     outline:0;
-    width:1000px;
+    width:100px;
    
     }
     
