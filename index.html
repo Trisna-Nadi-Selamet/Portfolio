@@ -16,7 +16,7 @@
         <header class="l-header">
             <nav class="nav bg-grid">
                 <div>
-                   <a href="#" class="nav__logo">My-Website</a>
+                   <a href="#" class="nav__logo">TRISNA</a>
                 </div>
                 
                 <div class="nav__menu" id="nav-menu">
@@ -25,6 +25,7 @@
                           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                           <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                           <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                          
                           <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
                     </ul>
                 </div>
@@ -49,7 +50,7 @@
                     <a href="https://github.com/Trisna-Nadi-Selamet" class="home__social-icon"><i class='bx bxl-github'></i></a>
                     <a href="https://twitter.com/NadiTrisna" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
                     <a href="/Portfolio/asset/PORTFOLIO.pdf" class="home__social-icon"><i class='bx bxs-file-pdf'>Download Portfolio</i></a>
-                    <a href="/Portfolio/asset/CURRICULUM VITAE.pdf" class="home__social-icon"><i class='bx bxs-file-doc' >Download CV</i></a>
+                    <a href="/Portfolio/asset/CV.pdf" class="home__social-icon"><i class='bx bxs-file-doc' >Download CV</i></a>
                 </div>
              </section>
              
@@ -65,14 +66,7 @@
         <h2 class ="about__subtitle">My name is Trisna Nadi Selamet</h2>
         <p class="about__text">I graduated from Mercubuana University majoring in informatics, GPA 3.37. I am always interested in learning about programming languages, especially now that I am deepening the javascript programming language and taking part in courses on course-net  participants in the full stack javascript.<br>
             My final project completes the online shop information application starting from the process of the specified requirements and analysis, Starting from the Back End to the Front End.
-            language and related tools such as:<br>
-            <br>#Javascript
-            <br>#React.js
-            <br>#Express
-            <br>#Sequelize-cli
-            <br>#PostgreSQL
-            <br>#Github
-            <br>#Bootstrap 05
+            
         </p>
     </div>
 </div>
@@ -83,10 +77,21 @@
 
     <div class="skills__container bd-grid">
        <div>
-         <h2 class="skills__subtitle">Junior Skills</h2>
+         <h2 class="skills__subtitle">Skills</h2>
          <p class="skills__text">My skills are so many flaws to cover my flaws, when I find an error I always try to find out it is not easy for me to do it but every effort will eventually pay off. and I'm not a professional development, it's just that I want to try to be professional.</p>
         
-    <div class="skills__data">
+         <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxl-microsoft skills__icon'></i>
+                <span class="skills__name">MS OFFICE</span>
+                </div>
+              <div>
+                  <span class="skills__percentage"><sub>Intermediate level Up</sub></span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              </div>
+
+      <div class="skills__data">
         <div class="skills__names">
             <i class='bx bxl-html5 skills__icon'></i>
             <span class="skills__name">HTML5</span>
@@ -104,7 +109,7 @@
             <div>
                 <span class="skills__percentage"><sub>Intermediate level Up</sub></span>
             </div>
-            <div class="skills__bar skills__css"></div>
+            <div class="skills__bar skills__html"></div>
           </div>
           <div class="skills__data">
             <div class="skills__names">
@@ -126,6 +131,18 @@
             </div>
             <div class="skills__bar skills__react "></div>
           </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxl-adobe skills__icon' ></i>
+                <span class="skills__name">Adobe XD</span>
+                </div>
+              <div>
+                  <span class="skills__percentage"><sub>Basic level</sub></span>
+              </div>
+              <div class="skills__bar skills__Adobe"></div>
+              </div>
+
         </div>
          <div>
              <img src="/Portfolio/asset/Skill.jpeg" alt="" class="skills__img">
@@ -138,23 +155,23 @@
      <div class="work__container bd-grid">
          <div class ="work__img">
              <img src="/Portfolio/asset/Formal2.jpg" style="width:100%;cursor:pointer" 
-             onclick="onClick(this)" class="w3-hover-opacity">
+             onclick="onClick(this)" class="w3-hover-opacity"><a href="" class="button">Demo</a>
          </div>
          <div class ="work__img">
             <img src="/Portfolio/asset/Formal3.jpg" style="width:100%;cursor:pointer" 
-            onclick="onClick(this)" class="w3-hover-opacity">
+            onclick="onClick(this)" class="w3-hover-opacity"><a href="" class="button">Demo</a>
         </div>
         <div class ="work__img">
             <img src="/Portfolio/asset/Formal4.jpg" style="width:100%;cursor:pointer" 
-            onclick="onClick(this)" class="w3-hover-opacity">
+            onclick="onClick(this)" class="w3-hover-opacity"><a href="" class="button">Demo</a>
         </div>
         <div class ="work__img">
             <img src="/Portfolio/asset/Formal5.jpg" style="width:100%;cursor:pointer" 
-            onclick="onClick(this)" class="w3-hover-opacity">
+            onclick="onClick(this)" class="w3-hover-opacity"><a href="" class="button">Demo</a>
         </div>
         <div class ="work__img">
             <img src="/Portfolio/asset/Formal6.jpg" style="width:100%;cursor:pointer" 
-            onclick="onClick(this)" class="w3-hover-opacity">
+            onclick="onClick(this)" class="w3-hover-opacity"><a href="" class="button">Demo</a>
         </div>
      </div>
      <div id="view" class="img__view" onclick="this.style.display='none'">
@@ -195,17 +212,33 @@
      </div>
 </section>
 
- <section class="contact section" id="contact">
-     <h2 class="section-title">Contact</h2>
-     <div class="contact__container bd-grid">
-         <from action="" class="contact__form">
-             <input type="text" placeholder="Name" class="contact__input">
-             <input type="mail" placeholder="Email" class="contact__input">
-             <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-             <input type="button" value="Subbmit" class="contact__button button">
-         </from>
-     </div>
- </section>
+
+ <section class="work section" id="Demo">
+    <h2 class="section-title">Demo</h2>
+    <div class="work__container bd-grid">
+        <div class ="work__img">
+            <a href="https://www.youtube.com/watch?v=oIYWenB637c">Demo</a>
+        </div>
+    </div>
+    
+</section>
+
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+        <from action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="mail" placeholder="Email" class="contact__input">
+            <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+            <input type="button" value="Subbmit" class="contact__button button">
+        </from>
+    </div>
+</section>
+
+
+
+
+
  
 </main>
 
@@ -219,7 +252,7 @@
          <a href="https://www.linkedin.com/in/trisna-nadi-s/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>  
          <a href="https://github.com/Trisna-Nadi-Selamet" class="footer__icon"><i class='bx bxl-github'></i></a>
     </div>
-     <p class="footer__icon"><i class='bx bxs-map'></i></p><p>Location : Tegalwaru Kec.Ciampe Kab.Bogor Hp: +6281294388977</p>
+     <p class="footer__icon"><i class='bx bxs-map'></i></p><p>Location : Tegal waru Kec.Ciampe Kab.Bogor Hp: +6281294388977</p>
      <p>&#169; 2021 copyright Trisna Nadi S</p>
  </footer>
  

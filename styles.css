@@ -221,7 +221,17 @@ img {
     width: 400px;
 }
 
-.button,.button__contact,.certificate{
+.button{
+    padding:.20rem 2.5rem;
+    background-color:var(--first-color);
+    display:inline-block;
+    font-weight: var(--font-semi);
+    border-radius: 5px;
+    color:#fff;
+    margin-bottom: var(--mb-2);
+
+}
+.button__contact,.certificate{
     display:inline-block;
     background-color:var(--first-color);
     color:#fff;
@@ -297,13 +307,16 @@ img {
     width:70%;
 }
 .skills__css{
-    width:60%;
+    width:70%;
 }
 .skills__js{
     width:60%;
 }
 .skills__react{
     width:60%;
+}
+.skills__Adobe{
+    width:50%;
 }
 .skills__img{
     border-radius: .5rem;
@@ -496,7 +509,7 @@ img {
     position:relative;
     padding:0;
     outline:0;
-    width:100px;
+    width:800px;
    
     }
     
