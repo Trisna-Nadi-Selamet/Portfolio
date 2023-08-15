@@ -1,230 +1,462 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Portfolio</title>
-
-    <!---Box Icon-->
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/Portfolio/styles.css" type="text/css" />
-  </head>
-  <body>
-    <!---Header-->
-    <header class="l-header">
-      <nav class="nav bg-grid">
-        <div>
-          <a href="#" class="nav__logo">TRISNA</a>
-        </div>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-            <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
-
-            <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
-          </ul>
-        </div>
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-    <main class="l-main">
-      <section class="home bg-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">My name is<br /><span class="home__title-color"> Trisna Nadi Selamet</span><br /></h1>
-          <a href="#contact" class="button__contact">Contact</a>
-          <a href="#certi" class="certificate">Certificated</a>
-        </div>
-        <div class="home__img">
-          <!-- <img class="rounded-image" src="/Portfolio/asset/trisna.jpg" >  -->
-        </div>
-        <div class="home__social">
-          <a href="https://www.linkedin.com/in/trisna-nadi-s/" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.instagram.com/nadi.selamet/" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Trisna-Nadi-Selamet" class="home__social-icon"><i class="bx bxl-github"></i></a>
-          <a href="https://twitter.com/NadiTrisna" class="home__social-icon"><i class="bx bxl-twitter"></i></a>
-
-          <a href="asset/CV Trisna New.pdf" class="home__social-icon"><i class="bx bxs-file-doc">Download CV</i></a>
-        </div>
-      </section>
-
-      <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="asset/trisna.jpeg" alt="" />
-          </div>
-          <div>
-            <h2 class="about__subtitle">My name is Trisna Nadi Selamet</h2>
-            <p class="about__text">
-              I am a passionate person who enjoys creativity, and an IT programmer with knowledge of programming languages. I also have projects I have worked on myself in internal cases and also less than a year in manufacturing and
-              corporate companies. I graduated from mercu buana university, majoring in informatics engineering. I currently live in Bogor and I am married and have one child. I have experience working in a manufacturing and financial
-              company and I currently enjoy working on ongoing projects related to my background.
-              <br />
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills__container bd-grid">
-          <div>
-            <!--  <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-microsoft skills__icon"></i>
-                <span class="skills__name">MS Office</span>
-              </div>
-              <div>
-                <span class="skills__percentage"><sub>Intermediate level Up</sub></span>
-              </div>
-              <div class="skills__bar skills__html"></div>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="widtth=device-width, intial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/skin/color-1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        
+    </head>
+    <body>
+        <!-- === Main Container Start  -->
+        
+        <div class="main-container">
+            <!-- === Aside Start  -->
+            <div class="aside">
+                <div class="logo">
+                    <a href="#"><span>T</span>RISNA</a>
+                </div>
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+                    <ul class="nav">
+                        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="#about" class="active"><i class="fa fa-user"></i> About</a></li>
+                        <li><a href="#service" class="active"><i class="fa fa-list"></i> Services</a></li>
+                        <li><a href="#portfolio" class="active"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                        <li><a href="#contact" class="active"><i class="fa fa-comments"></i> Contact</a></li>
+                    </ul>
             </div>
+            <!-- === Aside End  -->
+            
+          <!-- === Main Container Start  -->
+            <div class="main-content">
+              <!-- === Home Section Start  -->
+              <section class="home section" id="home">
+                 <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello My Name is <span class="name"> Trisna Nadi Selamet</span></h3>
+                            <h3 class="profession">I'am a <span class="typing"></span></h3>
+                            <p>I am a passionate person who enjoys creativity and an IT programmer with knowledge of java 
+                                programming languages. Experienced development three year with a demonstrated history of working 
+                                in the manufacture and insurance industry. </p>
+                                <a href="#contact" class="btn hire-me">More Me</a>
+                                </div>
+                                <div class="home-img padd-15">
+                                   <img src="image/Trisna.jpg" alt="">
+                                </div>
+                            </div>
+                       </div>
+               </section>
+            <!-- === Home Section End  -->
 
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">Html5</span>
-              </div>
-              <div>
-                <span class="skills__percentage"><sub>Intermediate level Up</sub></span>
-              </div>
-              <div class="skills__bar skills__html"></div>
+            <!-- === About Section Start  -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I am Trisna Nadi Selamet <span>Back End Developer</span></h3>
+                                    <p>I focus on the part related to server side integration and automating process with time schedule task where I can create project with Java programming language. “Be able to reduce manual data processing by 50% in a year” or “Successfully process automatically processed data by 50% in a year.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Brithday : <span>14 Februari 1993</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>30</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Address : <span>Indonesia, Bogor</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Status : <span>Merried</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="image/CV - TRISNA NADI SELAMET.pdf" class="btn">Download CV</a>
+                                            <a href="#contact" class="btn hire me">Hire me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>Java</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Java Script</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 60%;"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Dockerfile</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 30%;"></div>
+                                                <div class="skill-percent">30%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Jenkins</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 40%;"></div>
+                                                <div class="skill-percent">40%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Kubernetes</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 40%;"></div>
+                                                <div class="skill-percent">40%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>PostgreSQL</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 30%;"></div>
+                                                <div class="skill-percent">30%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>OracleSQL</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 30%;"></div>
+                                                <div class="skill-percent">30%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-drak">
+                                                <!-- === timeline item start -->
+                                                  <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2016 - 2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">Bachelor's degree | Universitas Mercu Buana</h4>
+                                                    <p class="timeline-text">Bachelor's degree 2016 – 2020 Informatics IPK 3.3</p>
+                                                    <p class="timeline-text">Focuses as a student who is active in informatics engineering and learns about programming languages that can be integrated on the server side.</p>
+                                                  </div>
+                                                  <!-- === timeline item start -->
+                                                  <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2020 - 2020
+                                                    </h3>
+                                                    <h4 class="timeline-title"> Training Full Stack Javascript</h4>
+                                                    <p class="timeline-text">January 2021 – July 2021
+                                                        <li class="timeline-text-jobs">Javascript.</li>
+                                                        <li class="timeline-text-jobs">Github.</li>
+                                                        <li class="timeline-text-jobs">PostgreSQL.</li>
+                                                    </p>
+                                                  </div>
+                                                <!-- === timeline item end -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-drak">
+                                                <!-- === timeline item start -->
+                                                  <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Oct 2022 - Until Now
+                                                    </h3>
+                                                    <h4 class="timeline-title">PT. Asuransi Jiwa Sinarmas MSIG</h4>
+                                                    <p class="timeline-text">Financial Application Executive [Back End Development]
+                                                        <li class="timeline-text-jobs">Analyst mandays requirements project with businisse analyst.</li>
+                                                        <li class="timeline-text-jobs">Creation design ERD structures model database.</li>
+                                                        <li class="timeline-text-jobs">Creation Dockerfile, K8s, jenkins and repository gitlab.</li>
+                                                        <li class="timeline-text-jobs">Make program code for applications tto make it more secure.</li>
+                                                        <li class="timeline-text-jobs">Overcome any problems that arise on the server side.</li>
+                                                        <li class="timeline-text-jobs">Version control systems GITlab knowledge and experience.</li>
+                                                        <li class="timeline-text-jobs">Deployment code for applications to server windows or linux.</li>
+                                                        <li class="timeline-text-jobs">Methology Agile Scrum.</li>
+                                                        <li class="timeline-text-jobs">The programming language java framework spring boot.</li>
+                                                    </p>
+                                                  </div>
+                                                  <!-- === timeline item start -->
+                                                  <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Mar 2022 – Oct 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title"> PT. Inspiro</h4>
+                                                    <p class="timeline-text">Software Development [System Analyst]
+                                                        <li class="timeline-text-jobs">Analyst mandays requirements project with development.</li>
+                                                        <li class="timeline-text-jobs">Creation design ERD structures model database.</li>
+                                                        <li class="timeline-text-jobs">Creation Dockerfile and repository gitlab.</li>
+                                                        <li class="timeline-text-jobs">Design use case, user story, scenario test.</li>
+                                                        <li class="timeline-text-jobs">Design mockup application with figma.</li>
+                                                        <li class="timeline-text-jobs">Version control systems GITlab  knowledge and experience.</li>
+                                                        <li class="timeline-text-jobs">Methology Agile Scrum.</li>
+                                                        <li class="timeline-text-jobs">The programming language java framework spring boot.</li>
+                                                    </p>
+
+                                                  </div>
+                                                <!-- === timeline item end -->
+
+                                                <!-- === timeline item start -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>  Aug 2021 – Mar 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title"> PT. Sinar Mas Multiartha, Tbk</h4>
+                                                    <p class="timeline-text">Software Engineer [Back End Development]
+                                                        <li class="timeline-text-jobs">Development of back end systems business unit.</li>
+                                                        <li class="timeline-text-jobs">Creation of data structures model database.</li>
+                                                        <li class="timeline-text-jobs">Design function cleaning data and validation Rest API.</li>
+                                                        <li class="timeline-text-jobs">Version control systems GIT or SVN knowledge and experience.</li>
+                                                        <li class="timeline-text-jobs">Methology SDLC.</li>
+                                                        <li class="timeline-text-jobs">The programming language java framework spring boot.</li>
+                                                    </p>
+                                                  </div>
+                                                <!-- === timeline item end -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- === About Section End  -->
+            <!-- === Service Section Start  -->
+            <section class="service section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                        <h2>Service</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- === Service Item Start  -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <li class="fa fa-laptop-code"></li>
+                                </div>
+                                <h3>Development</h3>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <li class="fa fa-code"></li>
+                                </div>
+                                <h3>Analyst</h3>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <li class="fa fa-server"></li>
+                                </div>
+                                <h3>Deployment</h3>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <li class="fa fa-palette"></li>
+                                </div>
+                                <h3>Time Management</h3>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <li class="fa fa-search"></li>
+                                </div>
+                                <h3>Problem-Solving</h3>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <li class="fa fa-mobile-alt"></li>
+                                </div>
+                                <h3>Detail-Oriented</h3>
+                            </div>
+                        </div>
+                        <!-- === Service Item End  -->
+                    </div>
+                </div>
+            </section>
+            <!-- === Service Section End  -->
+
+            <!-- === Portfolio Section Start  -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Portfolio</h2>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="portfolio-heading padd-15">
+                        <h2>My Last Project :</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- === Portfolio Item Start  -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow dark">
+                           <div class="portfolio-img">
+                            <img src="image/pj 01.jpg" alt="">
+                           </div>
+                        </div>
+                    </div>
+                    <!-- === Portfolio Item End  -->
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow dark">
+                           <div class="portfolio-img">
+                            <img src="image/pj 02.jpg" alt="">
+                           </div>
+                        </div>
+                    </div>
+                    <!-- === Portfolio Item End  -->
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow dark">
+                           <div class="portfolio-img">
+                            <img src="image/pj 03.jpg" alt="">
+                           </div>
+                        </div>
+                    </div>
+                    <!-- === Portfolio Item End  -->
+                </div>
+                </div>
+            </section>
+
+            <!-- === Portfolio Section End  --> 
+            <section class="contact section" id="contact">
+                <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                    </div>                    
+                </div>
+                <h3 class="contact-title padd-15"> Have Any Questions ?</h3>
+                <h4 class="contact-sub-title padd-15"> I'M AT YOUR SERVICES</h4>
+                <div class="row">
+                     <!-- === Contact Start  -->
+                     <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <h4>Phone Number</h4>
+                        <p>+62 81294388977</p>
+                     </div>
+                     <!-- === Contact End  -->
+                     
+                     <!-- === Contact Start  -->
+                     <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <p>nadi.selamet@gmail.com</p>
+                     </div>
+                     <!-- === Contact End  -->
+
+                     <!-- === Contact Start  -->
+                     <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fab fa-linkedin"></i></div>
+                        <h4>Linkedin</h4>
+                        <a href="https://www.linkedin.com/in/trisna-nadi-s/"><p>Trisna Nadi Selamet</p></a>
+                     </div>
+                     <!-- === Contact End  -->
+
+                     <!-- === Contact Start  -->
+                     <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                        <h4>Location</h4>
+                        <p>Indonesia, Bogor</p>
+                     </div>
+                     <!-- === Contact End  -->
+                </div>
+                
+                <h3 class="contact-title padd-15"> SEND ME  AN EMAIL</h3>
+                <h4 class="contact-sub-title padd-15"> I'M VERY RESPONSiVE TO MESSAGE</h4>
+                <!-- === Contact Form  -->
+                <div class="row">
+                    <div class="contact-form padd-15">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                <textarea name="" class="form-control" id="" placeholder="Message">Message</textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <!-- === Contact Section End  -->
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxs-file-css skills__icon"></i>
-                <span class="skills__name">Css</span>
-              </div>
-              <div>
-                <span class="skills__percentage"><sub>Intermediate level Up</sub></span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-            </div>-->
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">Javascript</span>
-              </div>
-              <div>
-                <span class="skills__percentage"><sub>Intermediate level</sub></span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-nodejs skills__icon"></i>
-                <span class="skills__name">Node.Js</span>
-              </div>
-              <div>
-                <span class="skills__percentage"><sub>Intermediate level</sub></span>
-              </div>
-              <div class="skills__bar skills__react"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-java skills__icon"></i>
-                <span class="skills__name">Java </span>
-              </div>
-              <div>
-                <span class="skills__percentage"><sub>Intermediate level</sub></span>
-              </div>
-              <div class="skills__bar skills__react"></div>
-            </div>
-          </div>
-          <div>
-            <img src="asset/Skill.jpeg" alt="" class="skills__img" />
-          </div>
         </div>
-      </section>
-      <section class="work section" id="work">
-        <h2 class="section-title">Portfolio</h2>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <img src="asset/Formal2.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" /><br /><br /><a href="https://www.youtube.com/watch?v=-rMRiMfknJA" class="button">Demo</a>&nbsp;<a
-              href="https://github.com/Trisna-Nadi-Selamet/ProjectTugasAkhir/tree/main"
-              class="button"
-              >Source</a
-            >
-          </div>
-          <div class="work__img">
-            <img src="asset/Formal3.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" /><br /><br /><a href="https://github.com/Trisna-Nadi-Selamet/ProjectTugasAkhir/tree/master" class="button"
-              >Demo</a
-            >&nbsp;<a href="https://github.com/Trisna-Nadi-Selamet/ProjectTugasAkhir/tree/master" class="button">Source</a>
-          </div>
-        </div>
-        <div id="view" class="img__view" onclick="this.style.display='none'">
-          <div class="modal-content zoom">
-            <img id="view-img" style="width: 100%" />
-          </div>
-        </div>
-      </section>
-      <section class="work section" id="certi">
-        <h2 class="section-title">Certificate</h2>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <img src="asset/Sertifikat1.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" />
-          </div>
-          <div class="work__img">
-            <img src="asset/Sertifikat2.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" />
-          </div>
-          <div class="work__img">
-            <img src="asset/Sertifikat3.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" />
-          </div>
-          <div class="work__img">
-            <img src="asset/Sertifikat4.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" />
-          </div>
-          <div class="work__img">
-            <img src="asset/Sertifikat5.jpg" style="width: 100%; cursor: pointer" onclick="onClick(this)" class="w3-hover-opacity" />
-          </div>
-        </div>
-        <div id="view" class="img__view" onclick="this.style.display='none'">
-          <div class="modal-content zoom">
-            <img id="view-img" style="width: 100%" />
-          </div>
-        </div>
-      </section>
-
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact__container bd-grid">
-          <from action="" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-            <input type="button" value="Subbmit" class="contact__button button" />
-          </from>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p class="footer__title">PORTFOLIO</p>
-
-      <div class="footer__social">
-        <a href="https://www.instagram.com/nadi.selamet/" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="https://twitter.com/NadiTrisna" class="footer__icon"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/trisna-nadi-s/" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Trisna-Nadi-Selamet" class="footer__icon"><i class="bx bxl-github"></i></a>
-      </div>
-      <p class="footer__icon"><i class="bx bxs-map"></i></p>
-      <p>Location : Tegal waru Kec.Ciampe Kab.Bogor 16620 Hp: +6281294388977</p>
-      <p>&#169; 2021 copyright Trisna Nadi S</p>
-    </footer>
-
-    <!---Footer-->
-    <!---Scroll Reveal-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!---App Js-->
-    <script src="/Portfolio/app.js"></script>
-  </body>
+        <!-- === Main Container End  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+        <!-- === JS Files   -->
+        <script src="js/script.js"></script>
+    </body>
 </html>
